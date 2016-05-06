@@ -34,7 +34,7 @@ import org.apache.log4j.Logger;
 public class WeatherEventsProducer {
 
     private static final Logger LOG = Logger.getLogger(WeatherEventsProducer.class);
-    private static final String apikey = "132c5a540bc50419b14b334ced3d4a6e";
+    private static final String apikey = "API_KEY";
     private static final HashMap<String, String[]> zones = new HashMap<String, String[]>();
     //public static HashMap<String, String[]> params = new HashMap<String, String[]>();
     
