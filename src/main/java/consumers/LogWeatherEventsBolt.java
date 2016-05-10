@@ -46,5 +46,4 @@ public class LogWeatherEventsBolt extends BaseRichBolt
               tuple.getStringByField(WeatherScheme.FIELD_PRESSURE)    + "," +
               tuple.getStringByField(WeatherScheme.FIELD_ALERTS));
     }
-    
 }
