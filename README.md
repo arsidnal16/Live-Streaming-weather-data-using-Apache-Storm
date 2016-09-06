@@ -5,11 +5,11 @@ This project is implemented to stream and analyze real time weather
 data using Apache Kafka and Apache Storm in hortonworks
 sandbox available in Azure cloud environment.
 
-Need horton sandbox account, preferable in a cloud environment like AWS or Azure
+Need horton sandbox account, preferably in a cloud environment like AWS or Azure
 
 Please replace the API key variable with the API key you got when you registered with Forecast.io API. 
 
-The Forecast.io API has a limit of 1000 calls per day so we have selected the weather data for 20 biggest cities in the world and used Apache Kafka to produce weather events. 
+The Forecast.io API has a limit of 1000 calls per day so I have selected the weather data for 20 biggest cities in the world and used Apache Kafka to produce weather events. 
 
 These events are then consumed using Apache Storm and then stored in HBase using hive.
 
